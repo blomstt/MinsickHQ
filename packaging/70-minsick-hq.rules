@@ -1,0 +1,7 @@
+# Many systems already give the logged-in person access (check with: getfacl /dev/hidrawN).
+# Where they don't, this lets the person logged in at the desk use the Audeze Maxwell dongle's control interface
+# (/dev/hidraw*) without root, for Minsick HQ's headset features. Install with:
+#   sudo cp packaging/70-minsick-hq.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload && sudo udevadm trigger
+# then unplug and replug the dongle.
+KERNEL=="hidraw*", ATTRS{idVendor}=="3329", ATTRS{idProduct}=="4b19", TAG+="uaccess"

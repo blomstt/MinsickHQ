@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Minsick HQ
+Comment=Headset status and equaliser for the Audeze Maxwell
+Exec=@DIR@/minsick-hq
+Icon=@DIR@/minsick_hq/qml/images/icon.svg
+Categories=AudioVideo;Audio;Mixer;
+StartupWMClass=minsick-hq

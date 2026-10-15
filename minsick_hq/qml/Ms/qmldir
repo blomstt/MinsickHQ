@@ -1,0 +1,12 @@
+module Ms
+singleton Theme 1.0 Theme.qml
+MsButton 1.0 MsButton.qml
+MsSwitch 1.0 MsSwitch.qml
+MsTextField 1.0 MsTextField.qml
+MsBandSlider 1.0 MsBandSlider.qml
+MsCard 1.0 MsCard.qml
+MsDialog 1.0 MsDialog.qml
+MsNavButton 1.0 MsNavButton.qml
+MsNumberField 1.0 MsNumberField.qml
+MsSegmented 1.0 MsSegmented.qml
+ResponseGraph 1.0 ResponseGraph.qml
